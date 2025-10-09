@@ -1,0 +1,54 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "question": "What is React?",
+      "answer": "React is a JavaScript library for building user interfaces."
+    },
+    {
+      "id": 2,
+      "question": "What is JSX?",
+      "answer": "JSX is a syntax extension that allows writing HTML in JavaScript."
+    },
+    {
+      "id": 3,
+      "question": "What is useState?",
+      "answer": "useState is a React Hook that lets you add state to functional components."
+    },
+    {
+      "id": 4,
+      "question": "What are props in React?",
+      "answer": "Props are inputs to components. They are passed from parent to child components and are read-only."
+    },
+    {
+      "id": 5,
+      "question": "What is a component in React?",
+      "answer": "A component is a reusable piece of UI. It can be a class or a function."
+    },
+    {
+      "id": 6,
+      "question": "What is the Virtual DOM?",
+      "answer": "The Virtual DOM is a programming concept where a virtual representation of the UI is kept in memory and synced with the real DOM."
+    },
+    {
+      "id": 7,
+      "question": "What is useEffect used for?",
+      "answer": "useEffect is a React Hook that lets you perform side effects like fetching data or updating the DOM."
+    },
+    {
+      "id": 8,
+      "question": "What is the difference between state and props?",
+      "answer": "State is local and managed within a component, while props are passed from parent to child components."
+    },
+    {
+      "id": 9,
+      "question": "How do you pass data between components?",
+      "answer": "Data is passed from parent to child components using props."
+    },
+    {
+      "id": 10,
+      "question": "What is conditional rendering?",
+      "answer": "Conditional rendering in React allows you to render components or elements based on certain conditions."
+    }
+  ]
+}
