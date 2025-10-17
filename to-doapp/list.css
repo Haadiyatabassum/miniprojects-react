@@ -1,0 +1,123 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: rgb(103, 99, 99);
+    margin: 0;
+    font-family: Arial,sans-serif;
+}
+.main-container{
+    box-sizing: border-box;
+    border:1px solid  rgb(220, 226, 43);
+    border-radius: 8px;
+    background-color: rgb(115, 183, 183);
+    padding: 10px;
+    max-width: 95%;
+}
+.container{
+    text-align: center; 
+}
+h1{
+    font-size: 24px;
+    color: darkviolet;
+    margin-bottom: 20px;
+}
+.input-container{
+    display:flex;
+    gap:10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+#taskInput{
+    flex:1;
+    padding: 10px; 
+    width:100%;
+    font-size: 16px;
+    border:2px solid #ccccccb9;
+    border-radius: 4px;
+}
+#addTaskButton{
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor:pointer;
+    border:none;
+    background-color: #28c428;
+    color:white;
+    border-radius: 4px;
+    transition:background-color 0.3s ease;
+    
+}
+.filter-container{
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+    gap:10px;
+    flex-wrap: wrap;
+}
+.filter-container button{
+    flex: 1;
+    padding: 8px;
+    font-size: 14px;
+    border:none;
+    border-radius: 4px;
+    background-color: rgb(206, 64, 204);
+    color: white;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    border :1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+@media(max-width:500px)
+{
+    .main-container
+    {
+        width:90%;
+        padding:10px;
+    }
+
+.container{
+    width:100%;
+}
+.input-container{
+    flex-direction: column;
+    align-items: stretch;
+}
+#taskInput{
+    margin-bottom: 10px;
+       width:100%;
+    }
+ #addTaskButton{
+    width:100%;
+ }
+.filter-container{
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+    margin-top: 15px;
+}
+.filter-container button{
+    width:100%;
+}
+}
